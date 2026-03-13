@@ -44,7 +44,7 @@ importers:
         version: 9.39.3
       happy-dom:
         specifier: ^20.7.0
-        version: 20.7.0
+        version: 20.8.4
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -59,7 +59,7 @@ importers:
         version: 8.0.7(vite@7.3.1(@types/node@24.10.13))(vue@3.5.29(typescript@5.9.3))
       vitest:
         specifier: ^4.0.18
-        version: 4.0.18(@types/node@24.10.13)(happy-dom@20.7.0)
+        version: 4.0.18(@types/node@24.10.13)(happy-dom@20.8.4)
       vue-tsc:
         specifier: 3.2.4
         version: 3.2.4(typescript@5.9.3)
@@ -1131,8 +1131,8 @@ packages:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
     engines: {node: '>=18'}
 
-  happy-dom@20.7.0:
-    resolution: {integrity: sha512-hR/uLYQdngTyEfxnOoa+e6KTcfBFyc1hgFj/Cc144A5JJUuHFYqIEBDcD4FeGqUeKLRZqJ9eN9u7/GDjYEgS1g==}
+  happy-dom@20.8.4:
+    resolution: {integrity: sha512-GKhjq4OQCYB4VLFBzv8mmccUadwlAusOZOI7hC1D9xDIT5HhzkJK17c4el2f6R6C715P9xB4uiMxeKUa2nHMwQ==}
     engines: {node: '>=20.0.0'}
 
   has-flag@4.0.0:
@@ -2805,7 +2805,7 @@ snapshots:
 
   globals@15.15.0: {}
 
-  happy-dom@20.7.0:
+  happy-dom@20.8.4:
     dependencies:
       '@types/node': 24.10.13
       '@types/whatwg-mimetype': 3.0.2
@@ -3257,7 +3257,7 @@ snapshots:
       '@types/node': 24.10.13
       fsevents: 2.3.3
 
-  vitest@4.0.18(@types/node@24.10.13)(happy-dom@20.7.0):
+  vitest@4.0.18(@types/node@24.10.13)(happy-dom@20.8.4):
     dependencies:
       '@vitest/expect': 4.0.18
       '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@24.10.13))
@@ -3281,7 +3281,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 24.10.13
-      happy-dom: 20.7.0
+      happy-dom: 20.8.4
     transitivePeerDependencies:
       - jiti
       - less
